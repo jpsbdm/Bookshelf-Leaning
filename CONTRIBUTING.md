@@ -1,49 +1,51 @@
-Primeiramente, obrigado pelo seu interesse em contribuir! Este é um projeto de estudo e toda colaboração é uma oportunidade de aprendizado.
+First of all, thank you for your interest in contributing!  
+This is a study project, and every collaboration is an opportunity to learn.
 
-## Fluxo de Trabalho (Workflow)
+## Workflow
 
-Utilizamos um fluxo simples para manter o projeto organizado:
+We use a simple workflow to keep the project organized:
 
 ### 1. Issues
 
-Para cada nova tarefa (feature, bug, etc.), uma issue deve ser criada no nosso quadro Kanban no GitHub.
+For each new task (feature, bug, etc.), an issue must be created on our GitHub Kanban board.
 
 ### 2. Branches
 
-- **`main`**: Contém o código de produção/estável. Apenas merges de `dev` são permitidos.
-- **`dev`**: Branch de desenvolvimento principal. Todo o trabalho em andamento é integrado aqui.
-- **`feat/<resumo>`**: Para novas funcionalidades (ex: `feat/cria-pagina-contato`).
-- **`fix/<resumo>`**: Para correção de bugs (ex: `fix/corrige-link-quebrado-footer`).
-- Sempre crie sua branch a partir da `dev`.
+- **`main`**: Contains the production/stable code. Only merges from `dev` are allowed.  
+- **`dev`**: Main development branch. All work in progress is integrated here.  
+- **`feat/<summary>`**: For new features (e.g., `feat/create-contact-page`).  
+- **`fix/<summary>`**: For bug fixes (e.g., `fix/broken-footer-link`).  
+- Always create your branch from `dev`.
 
 ### 3. Commits
 
-- Use o padrão [Conventional Commits](https://www.conventionalcommits.org/en/v1.0.0/) (ou uma versão simplificada).
-- Exemplos: `feat:`, `fix:`, `docs:`, `style:`, `refactor:`, `test:`, `chore:`.
-- Exemplo de mensagem: `feat: adiciona formulário de contato com validação básica`.
+- Use the [Conventional Commits](https://www.conventionalcommits.org/en/v1.0.0/) standard (or a simplified version).  
+- Examples: `feat:`, `fix:`, `docs:`, `style:`, `refactor:`, `test:`, `chore:`  
+- Example message: `feat: add contact form with basic validation`.
 
 ### 4. Pull Requests (PRs)
 
-- Ao concluir sua tarefa, abra um Pull Request da sua branch para a `dev`.
-- Utilize o `PULL_REQUEST_[TEMPLATE.md](http://TEMPLATE.md)` para descrever suas mudanças.
-- **Associe o PR à issue correspondente.**
-- Aguarde a revisão cruzada. O outro membro da dupla deve revisar e aprovar as mudanças.
-- Após a aprovação, o merge será feito usando "Squash and merge" para manter o histórico da `dev` limpo.
+- Once your task is complete, open a Pull Request from your branch to `dev`.  
+- Use the [`PULL_REQUEST_TEMPLATE.md`](PULL_REQUEST_TEMPLATE.md) to describe your changes.  
+- **Link the PR to its corresponding issue.**  
+- Wait for peer review — the other team member must review and approve the changes.  
+- After approval, the merge should be done using **“Squash and Merge”** to keep the `dev` history clean.
 
 ---
 
-## Definição de Pronto (Definition of Done - DoD)
+## Definition of Done (DoD)
 
-Uma tarefa só é considerada "Pronta" quando:
+A task is only considered “Done” when:
 
-- ✅ O código HTML abre no navegador sem erros de renderização.
-- ✅ Foram aplicadas boas práticas de semântica (tags como `<header>`, `<main>`, `<nav>`, `<section>`, etc.).
-- ✅ Acessibilidade básica foi considerada (ex: `lang="pt-BR"`, `alt` em imagens, `label` associado a `input`).
-- ✅ O checklist da tarefa na issue foi completamente marcado.
-- ✅ O Pull Request foi revisado e aprovado pelo outro membro da equipe.
+- ✅ The HTML opens in the browser without rendering errors.  
+- ✅ Semantic best practices are applied (`<header>`, `<main>`, `<nav>`, `<section>`, etc.).  
+- ✅ Basic accessibility is considered (e.g., `lang="en"`, `alt` on images, `label` linked to `input`).  
+- ✅ The task checklist in the issue has been fully completed.  
+- ✅ The Pull Request has been reviewed and approved by the other team member.
 
 ---
 
-## Configuração do Ambiente
+## Environment Setup
 
-Para a v1.0.0, não há necessidade de dependências. Apenas um editor de código (como o VS Code) e um navegador são suficientes.
+For **v1.0.0**, no dependencies are required.  
+A code editor (such as VS Code) and a browser are sufficient.
