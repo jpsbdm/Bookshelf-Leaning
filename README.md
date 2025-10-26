@@ -1,18 +1,19 @@
-# Bookshelf-Leaning
+# 📚 BookSpace
 
-Bem-vindo ao BookSpace, uma biblioteca digital fictícia criada como um projeto de estudo para explorar o desenvolvimento full stack, desde a semântica HTML até um back-end funcional com Node.js.
+Welcome to **BookSpace**, a fictional digital library created as a study project to explore full stack development — from semantic HTML to a functional back end with Node.js.
 
-## ✨ Visão do Projeto
+## ✨ Project Vision
 
-O BookSpace é uma plataforma para catalogar e explorar livros. O objetivo principal é servir como um campo de aprendizado prático para a dupla de desenvolvedores, João e Múcio, aplicando conceitos de design, desenvolvimento front-end, acessibilidade, e back-end em um ambiente colaborativo.
+BookSpace is a platform for cataloging and exploring books.  
+The main goal is to serve as a **practical learning field** for the developer duo, **João and Múcio**, applying concepts of design, front-end development, accessibility, and back-end integration in a collaborative environment.
 
 ---
 
-## 🚀 Versões do Projeto
+## 🚀 Project Versions
 
-O desenvolvimento é dividido em versões incrementais:
+The development is divided into incremental versions:
 
-- **v1.0.0:** Foco total em **HTML semântico**. Estrutura de todas as páginas sem CSS funcional ou JavaScript. O objetivo é construir uma base sólida e acessível.
-- **v2.0.0:** Implementação do **CSS estável** com o tema visual "Dark Elegante", tornando a plataforma visualmente coesa e responsiva.
-- **v2.1.0 → v2.9.0:** Adição de **interatividade com JavaScript**, feature por feature, como navegação dinâmica, validação de formulários e filtros de catálogo.
-- **v3.0.0:** Construção e integração de um **back-end básico** com Node.js/Express para gerenciar os dados dos livros e (futuramente) usuários.
+- **v1.0.0:** Focused entirely on **semantic HTML**. Structure of all pages without CSS or JavaScript. The goal is to build a solid and accessible foundation.  
+- **v2.0.0:** Implementation of **stable CSS** using the **“Dark Elegant”** visual theme, making the platform cohesive, modern, and responsive.  
+- **v2.1.0 → v2.9.0:** Addition of **JavaScript interactivity**, feature by feature — such as dynamic navigation, form validation, and catalog filtering.  
+- **v3.0.0:** Development and integration of a **basic Node.js/Express back end** to manage book data and, in the future, user accounts.

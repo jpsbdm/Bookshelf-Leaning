@@ -1,25 +1,25 @@
-# 📝 Descrição
-<!-- Descreva aqui, de forma clara e concisa, as mudanças que este PR introduz. -->
+# 📝 Description
+<!-- Clearly and concisely describe the changes introduced by this PR. -->
 
-# 🔗 Issue Relacionada
-<!-- Link para a issue que este PR resolve. Ex: "Resolve #12" -->
-Resolve #
+# 🔗 Related Issue
+<!-- Link to the issue this PR addresses. Example: "Resolves #12" -->
+Resolves #
 
-# ✅ Checklist de Qualidade
-<!-- Marque com 'x' os itens que se aplicam. -->
-- [ ] Meu código segue as diretrizes de estilo deste projeto.
-- [ ] O HTML abre corretamente no navegador sem erros.
-- [ ] A semântica do HTML foi revisada e está adequada.
-- [ ] Acessibilidade básica (atributos `alt`, `lang`, `label/for`) foi implementada.
-- [ ] Fiz uma auto-revisão do meu próprio código.
-- [ ] O checklist da tarefa na issue correspondente foi preenchido.
-- [ ] Adicionei ou atualizei a documentação, se necessário.
+# ✅ Quality Checklist
+<!-- Mark with 'x' the items that apply. -->
+- [ ] My code follows this project's style guidelines.
+- [ ] The HTML opens correctly in the browser with no errors.
+- [ ] The HTML semantics were reviewed and are appropriate.
+- [ ] Basic accessibility (`alt`, `lang`, `label/for`) has been implemented.
+- [ ] I have performed a self-review of my own code.
+- [ ] The task checklist in the corresponding issue has been completed.
+- [ ] I have added or updated documentation if needed.
 
-# 🖼️ Screenshots (se aplicável)
-<!-- Se houver mudanças visuais, adicione screenshots ou GIFs para facilitar a revisão. -->
+# 🖼️ Screenshots (if applicable)
+<!-- If there are visual changes, add screenshots or GIFs to make the review easier. -->
 
-# 🧪 Como Testar
-<!-- Forneça instruções passo a passo sobre como o revisor pode testar suas alterações. -->
-1. Faça o checkout desta branch.
-2. Abra o arquivo ou funcionalidade modificada.
-3. Verifique se [descreva o comportamento esperado].
+# 🧪 How to Test
+<!-- Provide step-by-step instructions so the reviewer can test your changes. -->
+1. Check out this branch.
+2. Open the modified file or feature.
+3. Verify that [describe the expected behavior].

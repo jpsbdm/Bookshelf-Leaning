@@ -1,39 +1,39 @@
-## Nossa Promessa
+## Our Pledge
 
-Nós, como membros, contribuidores e líderes, nos comprometemos a fazer da participação em nossa comunidade uma experiência livre de assédio para todos, independentemente de idade, corpo, tamanho, deficiência visível ou invisível, etnia, características sexuais, identidade e expressão de gênero, nível de experiência, educação, status socioeconômico, nacionalidade, aparência pessoal, raça, religião ou identidade e orientação sexual.
+We, as members, contributors, and leaders, pledge to make participation in our community a harassment-free experience for everyone, regardless of age, body size, visible or invisible disability, ethnicity, sexual characteristics, gender identity and expression, level of experience, education, socioeconomic status, nationality, personal appearance, race, religion, or sexual identity and orientation.
 
-Comprometemo-nos a agir e interagir de maneiras que contribuam para uma comunidade aberta, acolhedora, diversificada, inclusiva e saudável.
-
----
-
-## Nossos Padrões
-
-### Exemplos de comportamento que contribuem para um ambiente positivo:
-
-- Demonstrar empatia e bondade para com outras pessoas.
-- Respeitar opiniões, pontos de vista e experiências diferentes.
-- Dar e aceitar feedback construtivo com elegância.
-- Assumir a responsabilidade e pedir desculpas àqueles afetados por nossos erros, e aprender com a experiência.
-- Focar no que é melhor não apenas para nós como indivíduos, mas para a comunidade em geral.
-
-### Exemplos de comportamento inaceitável:
-
-- O uso de linguagem ou imagens sexualizadas e atenção ou avanços sexuais de qualquer tipo.
-- Trolling, comentários insultuosos ou depreciativos e ataques pessoais ou políticos.
-- Assédio público ou privado.
-- Publicar informações privadas de outras pessoas, como um endereço físico ou de e-mail, sem sua permissão explícita.
-- Outras condutas que poderiam razoavelmente ser consideradas inadequadas em um ambiente profissional.
+We commit to acting and interacting in ways that contribute to an open, welcoming, diverse, inclusive, and healthy community.
 
 ---
 
-## Aplicação
+## Our Standards
 
-Os líderes da comunidade (João e Múcio) são responsáveis por esclarecer e aplicar nossos padrões de comportamento aceitável e tomarão medidas corretivas apropriadas e justas em resposta a qualquer comportamento que considerem inadequado, ameaçador, ofensivo ou prejudicial.
+### Examples of behavior that contribute to a positive environment include:
 
-Os líderes da comunidade têm o direito e a responsabilidade de remover, editar ou rejeitar comentários, commits, código, edições de wiki, issues e outras contribuições que não estejam alinhadas a este Código de Conduta, e comunicarão as razões das decisões de moderação quando apropriado.
+- Demonstrating empathy and kindness toward other people.
+- Respecting different opinions, viewpoints, and experiences.
+- Giving and gracefully accepting constructive feedback.
+- Taking responsibility and apologizing to those affected by our mistakes, and learning from the experience.
+- Focusing on what is best not just for ourselves as individuals, but for the community as a whole.
+
+### Examples of unacceptable behavior include:
+
+- The use of sexualized language or imagery and sexual attention or advances of any kind.
+- Trolling, insulting or derogatory comments, and personal or political attacks.
+- Public or private harassment.
+- Publishing others’ private information, such as a physical or email address, without their explicit permission.
+- Other conduct that could reasonably be considered inappropriate in a professional setting.
 
 ---
 
-## Atribuição
+## Enforcement
 
-Este Código de Conduta é adaptado do [Contributor Covenant](https://www.contributor-covenant.org), versão 2.0, disponível em https://www.contributor-covenant.org/version/2/0/code_of_conduct.html.
+Community leaders (João and Múcio) are responsible for clarifying and enforcing our standards of acceptable behavior and will take appropriate and fair corrective action in response to any behavior they deem inappropriate, threatening, offensive, or harmful.
+
+Community leaders have the right and responsibility to remove, edit, or reject comments, commits, code, wiki edits, issues, and other contributions that are not aligned with this Code of Conduct, and will communicate reasons for moderation decisions when appropriate.
+
+---
+
+## Attribution
+
+This Code of Conduct is adapted from the [Contributor Covenant](https://www.contributor-covenant.org), version 2.0, available at https://www.contributor-covenant.org/version/2/0/code_of_conduct.html.
