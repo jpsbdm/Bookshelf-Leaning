@@ -1,0 +1,471 @@
+
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Documentação completa do projeto BookSpace - Guia para desenvolvedores e usuários">
+    <title>BookSpace | Documentação</title>
+</head>
+
+<body>
+    <a href="#main-content">Pular para o conteudo</a>
+    <!-- HEADER: Navegação principal do site -->
+    <header>
+        <!-- Logo do site -->
+        <div>
+            <h2 class="logo">
+                <img src="./assets/icons/BookSpace.png" alt="BookSpace Logo">
+            </h2>
+        </div>
+
+        <!-- Menu de navegação -->
+        <nav>
+            <ul>
+                <li>
+                    <a href="index.html">Home</a>
+                </li>
+                <li>
+                    <a href="catalog.html">Catálogo</a>
+                </li>
+                <li>
+                    <a href="about.html">Sobre</a>
+                </li>
+                <li>
+                    <a href="contact.html">Contato</a>
+                </li>
+                <li>
+                    <a href="docs.html" aria-current="page">Docs</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- MAIN: Conteúdo principal da documentação -->
+    <main id="main-content">
+        <!-- Seção Hero: Introdução da página -->
+        <section class="hero">
+            <h1>Documentação do Projeto</h1>
+            <p>
+                Guia completo para desenvolvedores e usuários do BookSpace. 
+                Aprenda sobre a arquitetura, como contribuir e os recursos disponíveis.
+            </p>
+        </section>
+
+        <!-- SUMÁRIO: Navegação interna com âncoras -->
+        <section id="sumario">
+            <h2>Sumário</h2>
+            <nav aria-label="Navegação da documentação">
+                <ol>
+                    <li>
+                        <a href="#sobre-projeto">Sobre o Projeto</a>
+                    </li>
+                    <li>
+                        <a href="#como-contribuir">Como Contribuir</a>
+                    </li>
+                    <li>
+                        <a href="#atalhos-teclado">Atalhos de Teclado</a>
+                    </li>
+                    <li>
+                        <a href="#arquitetura">Arquitetura</a>
+                    </li>
+                </ol>
+            </nav>
+        </section>
+
+        <!-- SEÇÃO 1: Sobre o Projeto -->
+        <section id="sobre-projeto">
+            <h2>Sobre o Projeto</h2>
+            
+            <article>
+                <h3>Descrição</h3>
+                <p>
+                    BookSpace é um projeto educacional de biblioteca digital desenvolvido para 
+                    aprender desenvolvimento web full stack. O projeto evolui em fases, começando 
+                    com HTML semântico puro e progredindo até uma aplicação completa com back-end.
+                </p>
+            </article>
+
+            <article>
+                <h3>Objetivos</h3>
+                <ul>
+                    <li>Aprender e aplicar HTML5 semântico</li>
+                    <li>Desenvolver habilidades em CSS3 e design responsivo</li>
+                    <li>Implementar interatividade com JavaScript</li>
+                    <li>Construir um back-end completo com banco de dados</li>
+                    <li>Praticar boas práticas de desenvolvimento e versionamento</li>
+                </ul>
+            </article>
+
+            <article>
+                <h3>Tecnologias Usadas</h3>
+                <dl>
+                    <dt>Versão Atual (v1.0.1)</dt>
+                    <dd>HTML5 Semântico - Estrutura completa e acessível</dd>
+                    
+                    <dt>Versionamento</dt>
+                    <dd>Git e GitHub com workflow GitFlow</dd>
+                    
+                    <dt>Documentação</dt>
+                    <dd>Markdown para README, CONTRIBUTING e templates</dd>
+                </dl>
+            </article>
+
+            <article>
+                <h3>Roadmap</h3>
+                <dl>
+                    <dt>v1.0.1 - HTML Semântico (Atual)</dt>
+                    <dd>
+                        Estrutura HTML completa de todas as páginas com semântica adequada, 
+                        acessibilidade e SEO básico.
+                    </dd>
+                    
+                    <dt>v2.0.0 - CSS & Design (Futuro)</dt>
+                    <dd>
+                        Estilização completa com CSS3, design responsivo, animações e 
+                        tema dark/light.
+                    </dd>
+                    
+                    <dt>v2.1.0 - JavaScript Básico (Futuro)</dt>
+                    <dd>
+                        Interatividade básica: navegação dinâmica, modais, validação de 
+                        formulários e busca.
+                    </dd>
+                    
+                    <dt>v3.0.0 - Back-end & Database (Futuro)</dt>
+                    <dd>
+                        Sistema completo com API REST, autenticação, banco de dados e 
+                        operações CRUD.
+                    </dd>
+                </dl>
+            </article>
+        </section>
+
+        <!-- SEÇÃO 2: Como Contribuir -->
+        <section id="como-contribuir">
+            <h2>Como Contribuir</h2>
+            
+            <article>
+                <h3>Documentação Completa</h3>
+                <p>
+                    Para informações detalhadas sobre como contribuir, consulte nosso 
+                    <a href="https://github.com/jpsbdm/Bookshelf-Leaning/blob/main/CONTRIBUTING.md" 
+                       target="_blank" 
+                       rel="noopener noreferrer">
+                        guia de contribuição (CONTRIBUTING.md)
+                    </a>.
+                </p>
+            </article>
+
+            <article>
+                <h3>Workflow GitFlow</h3>
+                <ol>
+                    <li>
+                        <strong>Criar branch:</strong> Sempre a partir de <code>dev</code>
+                        <ul>
+                            <li><code>feature/nome-da-feature</code> - Para novas funcionalidades</li>
+                            <li><code>bugfix/nome-do-bug</code> - Para correções de bugs</li>
+                            <li><code>docs/nome-da-doc</code> - Para documentação</li>
+                        </ul>
+                    </li>
+                    <li>
+                        <strong>Desenvolver:</strong> Fazer commits pequenos e frequentes
+                    </li>
+                    <li>
+                        <strong>Pull Request:</strong> Abrir PR para <code>dev</code> (nunca direto para <code>main</code>)
+                    </li>
+                    <li>
+                        <strong>Revisão:</strong> Aguardar aprovação de outro desenvolvedor
+                    </li>
+                    <li>
+                        <strong>Merge:</strong> Após aprovação, fazer merge na <code>dev</code>
+                    </li>
+                </ol>
+            </article>
+
+            <article>
+                <h3>Padrões de Commit</h3>
+                <p>Use prefixos semânticos nos commits:</p>
+                <dl>
+                    <dt><code>feat:</code></dt>
+                    <dd>Nova funcionalidade (ex: <code>feat: adicionar página de contato</code>)</dd>
+                    
+                    <dt><code>fix:</code></dt>
+                    <dd>Correção de bug (ex: <code>fix: corrigir link quebrado no footer</code>)</dd>
+                    
+                    <dt><code>docs:</code></dt>
+                    <dd>Documentação (ex: <code>docs: atualizar README com instruções</code>)</dd>
+                    
+                    <dt><code>style:</code></dt>
+                    <dd>Formatação, sem mudança de código (ex: <code>style: ajustar indentação</code>)</dd>
+                    
+                    <dt><code>refactor:</code></dt>
+                    <dd>Refatoração de código (ex: <code>refactor: simplificar estrutura do header</code>)</dd>
+                    
+                    <dt><code>test:</code></dt>
+                    <dd>Adição de testes (ex: <code>test: adicionar testes de validação</code>)</dd>
+                    
+                    <dt><code>chore:</code></dt>
+                    <dd>Manutenção (ex: <code>chore: atualizar .gitignore</code>)</dd>
+                </dl>
+            </article>
+
+            <article>
+                <h3>Como Abrir Issues</h3>
+                <p>
+                    Use nossos templates de issue para reportar bugs, sugerir funcionalidades 
+                    ou propor melhorias:
+                </p>
+                <ul>
+                    <li>
+                        <strong>Bug Report:</strong> Para reportar problemas ou erros
+                    </li>
+                    <li>
+                        <strong>Feature Request:</strong> Para sugerir novas funcionalidades
+                    </li>
+                    <li>
+                        <strong>Improvement:</strong> Para propor melhorias no código existente
+                    </li>
+                </ul>
+                <p>
+                    <a href="https://github.com/jpsbdm/Bookshelf-Leaning/issues/new/choose" 
+                       target="_blank" 
+                       rel="noopener noreferrer">
+                        Abrir uma nova issue
+                    </a>
+                </p>
+            </article>
+        </section>
+
+        <!-- SEÇÃO 3: Atalhos de Teclado -->
+        <section id="atalhos-teclado">
+            <h2>Atalhos de Teclado</h2>
+            
+            <article>
+                <h3>Navegação</h3>
+                <p>
+                    Os seguintes atalhos de teclado estarão disponíveis nas próximas versões 
+                    do projeto para melhorar a acessibilidade e experiência do usuário.
+                </p>
+                
+                <table>
+                    <caption>Atalhos de navegação do site</caption>
+                    <thead>
+                        <tr>
+                            <th scope="col">Atalho</th>
+                            <th scope="col">Ação</th>
+                            <th scope="col">Disponível em</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td><kbd>Tab</kbd></td>
+                            <td>Navegar entre elementos interativos</td>
+                            <td>v1.0.1 (Atual)</td>
+                        </tr>
+                        <tr>
+                            <td><kbd>Shift</kbd> + <kbd>Tab</kbd></td>
+                            <td>Navegar para trás entre elementos</td>
+                            <td>v1.0.1 (Atual)</td>
+                        </tr>
+                        <tr>
+                            <td><kbd>Enter</kbd></td>
+                            <td>Ativar link ou botão focado</td>
+                            <td>v1.0.1 (Atual)</td>
+                        </tr>
+                        <tr>
+                            <td><kbd>/</kbd></td>
+                            <td>Focar na barra de busca</td>
+                            <td>v2.1.0 (Planejado)</td>
+                        </tr>
+                        <tr>
+                            <td><kbd>Esc</kbd></td>
+                            <td>Fechar modal ou overlay</td>
+                            <td>v2.1.0 (Planejado)</td>
+                        </tr>
+                        <tr>
+                            <td><kbd>Ctrl</kbd> + <kbd>K</kbd></td>
+                            <td>Abrir busca rápida</td>
+                            <td>v2.1.0 (Planejado)</td>
+                        </tr>
+                        <tr>
+                            <td><kbd>?</kbd></td>
+                            <td>Mostrar todos os atalhos</td>
+                            <td>v2.1.0 (Planejado)</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </article>
+
+            <article>
+                <h3>Leitores de Tela</h3>
+                <p>
+                    O site é compatível com leitores de tela populares como NVDA, JAWS e VoiceOver. 
+                    Todas as páginas seguem as diretrizes WCAG 2.1 nível AA.
+                </p>
+            </article>
+        </section>
+
+        <!-- SEÇÃO 4: Arquitetura -->
+        <section id="arquitetura">
+            <h2>Arquitetura</h2>
+            
+            <article>
+                <h3>Estrutura de Pastas</h3>
+                <pre><code>bookspace/
+├── .github/                 # Configurações do GitHub
+│   ├── ISSUE_TEMPLATE/     # Templates de issues
+│   └── PULL_REQUEST_TEMPLATE/  # Templates de PRs
+├── assets/                  # Recursos estáticos
+│   ├── icons/              # Ícones e logos
+│   ├── images/             # Imagens do site
+│   ├── css/                # Estilos (v2.0.0+)
+│   └── js/                 # Scripts (v2.1.0+)
+├── docs/                    # Documentação adicional
+├── index.html              # Página inicial
+├── catalog.html            # Catálogo de livros
+├── item.html               # Detalhes do livro
+├── contact.html            # Página de contato
+├── about.html              # Sobre o projeto
+├── docs.html               # Esta página
+├── privacy.html            # Política de privacidade
+├── terms.html              # Termos de uso
+├── 404.html                # Página de erro 404
+├── sitemap.xml             # Mapa do site
+├── README.md               # Documentação principal
+├── CONTRIBUTING.md         # Guia de contribuição
+├── CODE_OF_CONDUCT.md      # Código de conduta
+├── LICENSE                 # Licença do projeto
+└── .gitignore              # Arquivos ignorados pelo Git</code></pre>
+            </article>
+
+            <article>
+                <h3>Convenções de Nomenclatura</h3>
+                <dl>
+                    <dt>Arquivos HTML</dt>
+                    <dd>
+                        Usar nomes descritivos em inglês, tudo minúsculo, sem espaços 
+                        (ex: <code>catalog.html</code>, <code>contact.html</code>)
+                    </dd>
+                    
+                    <dt>Classes CSS (v2.0.0+)</dt>
+                    <dd>
+                        Usar kebab-case (ex: <code>.hero-content</code>, <code>.book-card</code>)
+                    </dd>
+                    
+                    <dt>IDs</dt>
+                    <dd>
+                        Usar kebab-case, apenas quando necessário para âncoras 
+                        (ex: <code>#sobre-projeto</code>, <code>#atalhos-teclado</code>)
+                    </dd>
+                    
+                    <dt>Branches Git</dt>
+                    <dd>
+                        Usar prefixo + descrição em kebab-case 
+                        (ex: <code>feature/catalog-page</code>, <code>bugfix/broken-link</code>)
+                    </dd>
+                    
+                    <dt>Commits</dt>
+                    <dd>
+                        Usar prefixo semântico + descrição em português 
+                        (ex: <code>feat: adicionar página de documentação</code>)
+                    </dd>
+                </dl>
+            </article>
+
+            <article>
+                <h3>Decisões Técnicas</h3>
+                
+                <h4>HTML Semântico</h4>
+                <p>
+                    Priorizamos o uso de tags semânticas do HTML5 para melhorar acessibilidade, 
+                    SEO e manutenibilidade:
+                </p>
+                <ul>
+                    <li><code>&lt;header&gt;</code> - Cabeçalho do site</li>
+                    <li><code>&lt;nav&gt;</code> - Navegação principal</li>
+                    <li><code>&lt;main&gt;</code> - Conteúdo principal</li>
+                    <li><code>&lt;section&gt;</code> - Seções temáticas</li>
+                    <li><code>&lt;article&gt;</code> - Conteúdo independente</li>
+                    <li><code>&lt;aside&gt;</code> - Conteúdo complementar</li>
+                    <li><code>&lt;footer&gt;</code> - Rodapé do site</li>
+                </ul>
+
+                <h4>Acessibilidade</h4>
+                <p>
+                    Seguimos as diretrizes WCAG 2.1 nível AA:
+                </p>
+                <ul>
+                    <li>Uso de atributos <code>alt</code> em todas as imagens</li>
+                    <li>Atributos <code>aria-*</code> quando necessário</li>
+                    <li>Navegação por teclado funcional</li>
+                    <li>Contraste de cores adequado (v2.0.0+)</li>
+                    <li>Textos descritivos em links e botões</li>
+                </ul>
+
+                <h4>SEO</h4>
+                <p>
+                    Otimização para motores de busca:
+                </p>
+                <ul>
+                    <li>Meta tags descritivas em todas as páginas</li>
+                    <li>Estrutura de headings hierárquica (h1 → h6)</li>
+                    <li>URLs amigáveis e descritivas</li>
+                    <li>Sitemap.xml para indexação</li>
+                    <li>Schema.org markup (v2.0.0+)</li>
+                </ul>
+
+                <h4>Versionamento</h4>
+                <p>
+                    Usamos GitFlow simplificado:
+                </p>
+                <ul>
+                    <li><code>main</code> - Código em produção (estável)</li>
+                    <li><code>dev</code> - Desenvolvimento ativo</li>
+                    <li><code>feature/*</code> - Novas funcionalidades</li>
+                    <li><code>bugfix/*</code> - Correções de bugs</li>
+                    <li><code>docs/*</code> - Documentação</li>
+                </ul>
+            </article>
+
+            <article>
+                <h3>Padrões de Código</h3>
+                <ul>
+                    <li>Indentação: 4 espaços</li>
+                    <li>Encoding: UTF-8</li>
+                    <li>Line endings: LF (Unix)</li>
+                    <li>Sempre fechar tags HTML</li>
+                    <li>Usar aspas duplas em atributos HTML</li>
+                    <li>Comentários descritivos quando necessário</li>
+                    <li>Validar HTML com W3C Validator</li>
+                </ul>
+            </article>
+        </section>
+
+        <!-- Seção de navegação: Voltar ao topo -->
+        <aside>
+            <a href="#sumario">↑ Voltar ao sumário</a>
+        </aside>
+    </main>
+
+    <!-- FOOTER: Rodapé com links institucionais -->
+    <footer>
+        <p>
+            &copy; 2025 BookSpace. Projeto educacional de código aberto.
+        </p>
+        <nav aria-label="Links institucionais">
+            <a href="privacy.html">Política de Privacidade</a>
+            <span> | </span>
+            <a href="terms.html">Termos de Uso</a>
+            <span> | </span>
+            <a href="https://github.com/jpsbdm/Bookshelf-Leaning" 
+               target="_blank" 
+               rel="noopener noreferrer">
+                GitHub
+            </a>
+        </nav>
+    </footer>
+</body>
+
+</html>
