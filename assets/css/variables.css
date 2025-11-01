@@ -1,0 +1,78 @@
+:root {
+    /*Primary Colors*/
+    --color-primary: #7B61FF;
+    --color-primary-hover: #6A4FE8;
+    --color-primary-active: #5940D1;
+
+    /* Background Colors */
+    --color-bg-primary: #111111;
+    --color-bg-secondary: #1B1B1B;
+    --color-bg-tertiary: #252525;
+
+    /* Text Colors */
+    --color-text-primary: #F5F5F5;
+    --color-text-secondary: #B8B8B8;
+    --color-text-tertiary: #808080;
+
+    /* Feedback Colors */
+    --color-success: #4CAF50;
+    --color-error: #F44336;
+    --color-warning: #FF9800;
+    --color-info: #2196F3;
+
+    
+    /* Border Colors */
+    --color-border-default: #333333;
+    --color-border-focus: #7B61FF;
+    --color-border-hover: #444444;
+
+    /* Font Families */
+    --font-heading: 'Manrope', sans-serif;
+    --font-body: 'Inter', sans-serif;
+
+    /* Fontes Base */
+    --font-heading: 'Manrope', sans-serif;
+    --font-body: 'Inter', sans-serif;
+
+    /* TÍTULOS */
+    --title-lg: 800 48px/120% var(--font-heading);   /* h1 */
+    --title-md: 700 36px/120% var(--font-heading);   /* h2 */
+    --title-sm: 600 28px/150% var(--font-heading);   /* h3 */
+    --title-xs: 600 24px/150% var(--font-heading);   /* h4 */
+
+    /* TEXTOS */
+    --text-lg: 400 18px/160% var(--font-body);       /* Destaque */
+    --text-md: 400 16px/160% var(--font-body);       /* Body */
+    --text-sm: 400 14px/150% var(--font-body);       /* Pequeno */
+    --text-xs: 400 12px/150% var(--font-body);       /* Legenda */
+
+    /* TEXTOS BOLD */
+    --text-lg-bold: 700 18px/160% var(--font-body);
+    --text-md-bold: 700 16px/160% var(--font-body);
+    --text-sm-bold: 700 14px/150% var(--font-body);
+    
+  /* Transitions */
+  --transition-fast: 0.2s ease;
+  --transition-normal: 0.3s ease;
+  --transition-slow: 0.5s ease;
+  
+  /* Border Radius */
+  --radius-sm: 4px;
+  --radius-md: 8px;
+  --radius-lg: 12px;
+  --radius-full: 9999px;
+  
+  /* Shadows */
+  --shadow-sm: 0 2px 4px rgba(0, 0, 0, 0.1);
+  --shadow-md: 0 4px 12px rgba(0, 0, 0, 0.2);
+  --shadow-lg: 0 8px 24px rgba(0, 0, 0, 0.3);
+
+        /* Spacing */
+  --spacing-xs: 4px;
+  --spacing-sm: 8px;
+  --spacing-md: 16px;
+  --spacing-lg: 24px;
+  --spacing-xl: 32px;
+  --spacing-2xl: 48px;
+  --spacing-3xl: 64px;
+}
