@@ -1,0 +1,85 @@
+.btn-primary {
+
+    appearance: none;
+    display: inline-block;
+    border: 1.3px solid var(--color-primary);
+    border-radius: 0.35rem;
+    font-family: var(--font-heading);
+    color: var(--color-text-primary);
+    font: var(--text-md-bold);
+    text-transform: uppercase;
+    background-color: var(--color-primary);
+    transition: background-color 0.2s ease;
+}
+
+.btn-secondary {
+    appearance: none;
+    display: inline-block;
+    border: 1.3px solid white;
+    border-radius: 0.35rem;
+    font-family: var(--font-heading);
+    color: var(--color-text-primary);
+    font: var(--text-md-bold);
+    text-transform: uppercase;
+    background-color: var(--color-bg-tertiary);
+    transition: background-color 0.2s ease;
+}
+
+.btn-disabled {
+    appearance: none;
+    display: inline-block;
+    border: 1.3px solid var(--color-border-hover);
+    background-color: var(--color-border-hover);
+    border-radius: 0.35rem;
+    font-family: var(--font-heading);
+    font: var(--text-md-bold);
+    color: var(--color-text-primary);
+    text-transform: uppercase;
+    transition: background-color 0.2s ease;
+}
+
+.btn-sm {
+    padding: 0.5rem 1rem;
+}
+
+.btn-md {
+    padding: 0.6rem 3rem;
+}
+
+.btn-lg {
+    padding: 0.6rem 6rem;
+}
+
+.btn-primary,
+.btn-secondary,
+.btn-disabled {
+    cursor: pointer;
+}
+
+/*  Acoes do botao, hover, active and Focus
+*/
+.btn-primary:hover {
+    background-color: var(--color-primary-hover);
+}
+
+.btn-secondary:hover {
+    background-color: var(--color-bg-primary);
+}
+
+.btn-primary:active {
+    background-color: var(--color-bg-tertiary);
+}
+
+.btn-secondary:active {
+    background-color: var(--color-bg-primary);
+}
+
+.btn-primary:focus {
+    background-color: var(--color-bg-tertiary);
+    border-style: dashed;
+}
+
+.btn-secondary:focus {
+    background-color: var(--color-text-tertiary);
+    border-color: var(--color-text-tertiary);
+}
