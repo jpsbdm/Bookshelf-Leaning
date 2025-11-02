@@ -1,0 +1,23 @@
+footer{
+    text-decoration: none;
+    
+    background-color: var(--color-bg-secondary);
+    color: aliceblue;
+}
+
+footer h4{
+    font: var(--title-sm);
+}
+
+.footer-containers{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: var(--spacing-2xl);
+    padding-bottom: var(--spacing-3xl);
+    gap: 100px;
+}
+.footer-container{
+    display:flexbox;
+    max-width: 10px;
+}
