@@ -1,0 +1,61 @@
+/* zera margens/paddings padrao de navegador */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Base Layout: header | main | footer */
+.layout {
+    display: grid;
+    grid-template-rows: auto 1fr auto;
+    min-height: 100vh;
+}
+
+/* Container centralizado */
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: var(--spacing-lg);
+}
+
+/* Header "grudado"(sticky) */
+header {
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    background: rgba(27, 27, 27, 0.9);
+    border-bottom: 1px solid var(--color-border-default);
+    backdrop-filter: blur(4px);
+}
+
+header .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: var(--spacing-md);
+    padding-top: var(--spacing-md);
+    padding-bottom: var(--spacing-md);
+}
+
+/* Espacamento no conteudo e rodape */
+main .container {
+    padding-top: var(--spacing-x1);
+    padding-bottom: var(--spacing-2x1);
+}
+
+footer {
+    background: var(--color-bg-secondary);
+    border-top: 1px solid var(--color-border-default);
+}
+
+footer .container {
+    text-align: center;
+    padding-top: var(--spacing-md);
+    color: var(--color-text-secondary);
+    font: var(--text-sm);
+}
+
+.layout > * { outline: 1px dashed #5a4a8f; }
+
+.container { outline: 1px dashed #8f5aa3; }
