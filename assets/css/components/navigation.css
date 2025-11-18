@@ -1,0 +1,35 @@
+.nav {
+
+    display: flex;
+    gap: 2rem;
+    justify-content: center;
+    align-items: center;
+    height: 4rem;
+    background-color: var(--color-bg-primary);
+}
+.nav img {
+    height: 40px;
+}
+.nav ul {
+    display: flex;
+    gap: 2rem;
+}
+.nav li {
+    list-style: none;
+    font: var(--text-lg-bold);
+    border-bottom: #33333300 3px solid;
+}
+.nav li:hover {
+    border-bottom: var(--color-primary) 3px solid;
+}
+.nav li:active {
+    border-bottom: var(--color-text-primary) 3px solid;
+}
+.nav svg {
+    height: 1.7rem;
+    width: 1.7rem;
+    color: var(--color-text-primary);
+}
+.nav-actual-page{
+    color: var(--color-primary);
+}

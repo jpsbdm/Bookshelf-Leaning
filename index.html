@@ -8,54 +8,68 @@
     <link rel="stylesheet" href="./assets/css/main.css">
     <link rel="stylesheet" href="./assets/css/components/footer.css">
 </head>
+
 <body>
     <div class="layout">
-    <a href="#main-content">Pular para o conteudo</a>
-    
-    <header>
-        <div class="container">
-        <!-- Logo do site -->
-        <div>
-            <h2 class="logo">
+        <a href="#main-content">Pular para o conteudo</a>
+
+        <header>
+            <nav class="nav">
+                <!-- Logo do site -->
                 <img src="./assets/icons/BookSpace.png" alt="BookSpace Logo">
-            </h2>
-        </div>
+                <!-- Menu de navegação -->
+                <ul>
+                    <li>
+                        <a class="nav-actual-page" href="index.html" aria-current="page">Home</a>
+                    </li>
+                    <li>
+                        <a href="catalog.html">Catálogo</a>
+                    </li>
+                    <li>
+                        <a href="about.html">Sobre</a>
+                    </li>
+                    <li>
+                        <a href="contact.html">Contato</a>
+                    </li>
+                    <li>
+                        <a href="docs.html">Docs</a>
+                    </li>
+                </ul>
+                <!-- SVG da lupa de buscar -->
+                <svg version="1.1" id="_x32_" xmlns="http://www.w3.org/2000/svg"
+                    xmlns:xlink="http://www.w3.org/1999/xlink" width="800px" height="800px" viewBox="0 0 512 512"
+                    xml:space="preserve" fill="currentColor">
 
-        <!-- Menu de navegação -->
-        <nav>
-            <ul>
-                <li>
-                    <a href="index.html" aria-current="page">Home</a>
-                </li>
-                <li>
-                    <a href="catalog.html">Catálogo</a>
-                </li>
-                <li>
-                    <a href="about.html">Sobre</a>
-                </li>
-                <li>
-                    <a href="contact.html">Contato</a>
-                </li>
-                <li>
-                    <a href="docs.html" >Docs</a>
-                </li>
-            </ul>
-        </nav>
-        </div>
-    </header>
+                    <g>
+                        <path class="st0" d="M449.803,62.197C408.443,20.807,353.85-0.037,299.646-0.006C245.428-0.037,190.85,20.807,149.49,62.197
+		C108.1,103.557,87.24,158.15,87.303,212.338c-0.047,37.859,10.359,75.766,30.547,109.359L15.021,424.525
+		c-20.016,20.016-20.016,52.453,0,72.469c20,20.016,52.453,20.016,72.453,0L190.318,394.15
+		c33.578,20.203,71.5,30.594,109.328,30.547c54.203,0.047,108.797-20.797,150.156-62.188
+		c41.375-41.359,62.234-95.938,62.188-150.172C512.053,158.15,491.178,103.557,449.803,62.197z M391.818,304.541
+		c-25.547,25.531-58.672,38.125-92.172,38.188c-33.5-0.063-66.609-12.656-92.188-38.188c-25.531-25.578-38.125-58.688-38.188-92.203
+		c0.063-33.484,12.656-66.609,38.188-92.172c25.578-25.531,58.688-38.125,92.188-38.188c33.5,0.063,66.625,12.656,92.188,38.188
+		c25.531,25.563,38.125,58.688,38.188,92.172C429.959,245.854,417.365,278.963,391.818,304.541z" />
+                    </g>
+                </svg>
+                <!-- Botao de login -->
+                <a class="btn-primary btn-sm" href="#"> Login</a>
+            </nav>
 
-    <main id="main-content">
-        <div class="container">
-        <section class="hero">
-            <div class="grid">
+        </header>
+
+        <main id="main-content">
+            <div class="container">
+                <section class="hero">
+                    <div class="grid">
             <div class="col-7 hero-content">
-                <h1>Descubra sua proxima leitura</h1>
-                <p>
-                    Explore nossa colecao de milhares de livros de variados generos. Descubra seu proximo livro favorito agora. 
-                </p>
-                <a href="catalog.html">Pesquisar Livros</a>               
-            </div>
-            </div>
+                        <h1>Descubra sua proxima leitura</h1>
+                        <p>
+                            Explore nossa colecao de milhares de livros de variados generos. Descubra seu proximo livro
+                            favorito agora.
+                        </p>
+                        <a href="catalog.html">Pesquisar Livros</a>
+                    </div>
+                    </div>
         </section>
 
         <!-- TESTE -->
@@ -75,64 +89,65 @@
 </section>
 
 <!-- TESTE -->
-        
-        <section>
-            <h2>Livros mais populares</h2>
-            <div class="grid">
-            <div class="col-4">
+
+                <section>
+                    <h2>Livros mais populares</h2>
+    <div class="grid">
+                    <div class="col-4">
             <img src="" alt="">
-                <h3>Book Title</h3>
-                <span>Nome do Autor</span>
-            </div>
-            <div class="col-4">
+                        <h3>Book Title</h3>
+                        <span>Nome do Autor</span>
+                    </div>
+                    <div class="col-4">
                 <img src="" alt="">
-                <h3>Book Title</h3>
-                <span>Nome do Autor</span>
-            </div>
-            <div class="col-4">
+                        <h3>Book Title</h3>
+                        <span>Nome do Autor</span>
+                    </div>
+                    <div class="col-4">
                 <img src="" alt="">
-                <h3>Book Title</h3>
-                <span>Nome do Autor</span>
-            </div>
-            </div>
+                        <h3>Book Title</h3>
+                        <span>Nome do Autor</span>
+                    </div>
+                    </div>
         </section>
-        <!-- CTA FINAL MENSAGEM DE CALL-TO-ACTION -->
-        <section>
-            <div class="grid">
+                <!-- CTA FINAL MENSAGEM DE CALL-TO-ACTION -->
+                <section>
+                    <div class="grid">
                 <div class="col-12" style="text-align: center;">
             <h2>Nao perca essa oportunidade</h2>
-            <a href="catalog.html">Leia agora</a>
-            </div>
+                    <a href="catalog.html">Leia agora</a>
+                    </div>
             </div>
         </section>
-</div>
-    </main>
-    <footer>
-<div class="footer-containers">
-    <div class="footer-conainer">
-        <h4>Sobre nós</h4>
-        <p>BookSpace é um projeto ficcional de biblioteca digital desenvolvido para aprender desenvolvimento web full stack. </p>
-    </div>
-    <div class="footer-conainer">
-        <h4>Links Uteis</h4>
-        <ul>
-            <li><a href="index.html">Home</a></li>
-            <li><a href="catalog.html">Catálogo</a></li>
-            <li><a href="contact.html">Contato</a></li>
-            <li><a href="docs.html">Docs</a></li>
-        </ul>
-    </div>
-    <div class="footer-conainer">
-        <h4>Redes Sociais</h4>
-    </div>
-</div>
-<div>
-        &copy; 2025 BookSpace
-        <a href="privacy.html">Politica de privacidade</a>
-        <span> e <a href="terms.html">Termos de uso</a></span>
-</div>
+            </div>
+        </main>
+        <footer>
+            <div class="footer-containers">
+                <div class="footer-conainer">
+                    <h4>Sobre nós</h4>
+                    <p>BookSpace é um projeto ficcional de biblioteca digital desenvolvido para aprender desenvolvimento
+                        web full stack. </p>
+                </div>
+                <div class="footer-conainer">
+                    <h4>Links Uteis</h4>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="catalog.html">Catálogo</a></li>
+                        <li><a href="contact.html">Contato</a></li>
+                        <li><a href="docs.html">Docs</a></li>
+                    </ul>
+                </div>
+                <div class="footer-conainer">
+                    <h4>Redes Sociais</h4>
+                </div>
+            </div>
+            <div>
+                &copy; 2025 BookSpace
+                <a href="privacy.html">Politica de privacidade</a>
+                <span> e <a href="terms.html">Termos de uso</a></span>
+            </div>
 
-    </footer>
+        </footer>
     </div>
 </body>
 

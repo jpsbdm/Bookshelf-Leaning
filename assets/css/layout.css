@@ -59,3 +59,11 @@ footer .container {
 .layout > * { outline: 1px dashed #5a4a8f; }
 
 .container { outline: 1px dashed #8f5aa3; }
+
+
+body {
+    background: var(--color-bg-primary);
+    color: var(--color-text-primary);
+    font: var(--text-md);
+    font-family: var(--font-body);
+}
