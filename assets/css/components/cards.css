@@ -6,6 +6,7 @@
     display: grid;
     gap: 1.25rem;
     grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    justify-items: start;
 }
 
 .card {
@@ -19,6 +20,8 @@
     column-gap: 16px;
     padding: 16px;
     align-items: start;
+    max-width: 320px;
+    width: 100%;
 }
 
 .card:hover {
